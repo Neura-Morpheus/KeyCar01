@@ -1,25 +1,25 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="r_stq_entrada" directorySegmentName="seg_0" id="55F4FFB2-33DF-3867-19EF-917CB09EEBA2">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="r_venda_prod" directorySegmentName="seg_0" id="2A220465-5134-3011-4010-4A98E0D92971">
 <createdBy>asait</createdBy>
-<createdTime>2021-06-23 16:16:06 UTC</createdTime>
+<createdTime>2021-06-24 21:04:48 UTC</createdTime>
 <ownerDesignName>KeyCar01</ownerDesignName>
 <engineerTo>
 <item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
 </engineerTo>
 <identifying>false</identifying>
-<optionalSource>true</optionalSource>
+<optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
 <sourceEntity>F4C9D292-31AD-CB4B-66B7-84D552793DE0</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>B3D1D0F4-C4C9-AE1F-1EB5-8D64915BC4A1</targetEntity>
+<targetEntity>E406FDB0-51F6-2897-4B05-5FDC1495D853</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<attribute name="id_compra" id="82FE17C8-8E4B-071B-16CB-9A534CF09E17">
+<attribute name="id_prod" id="F82BCF8D-9674-7019-ED76-02338844E978">
 <createdBy>asait</createdBy>
-<createdTime>2021-06-23 16:16:49 UTC</createdTime>
-<comment><![CDATA[Identificação da Compra]]></comment>
+<createdTime>2021-06-24 21:15:59 UTC</createdTime>
+<comment><![CDATA[Ideintificação do produto]]></comment>
 <ownerDesignName>KeyCar01</ownerDesignName>
 <engineerTo>
 <item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
@@ -29,23 +29,10 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </attribute>
-<attribute name="dta_compra" id="A66E57B5-C2F9-58D8-7334-0CDD80EE32A2">
+<attribute name="qtde_venda" id="BA2BA559-7A4D-0B5A-E62F-9F034FEA91EA">
 <createdBy>asait</createdBy>
-<createdTime>2021-06-23 16:18:45 UTC</createdTime>
-<comment><![CDATA[Data da compra]]></comment>
-<ownerDesignName>KeyCar01</ownerDesignName>
-<engineerTo>
-<item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</attribute>
-<attribute name="dta_entrega" id="BAB135AD-9A33-FFAC-352E-48CEB252AFC2">
-<createdBy>asait</createdBy>
-<createdTime>2021-06-24 06:38:48 UTC</createdTime>
-<comment><![CDATA[Data da entrega efetiva do produto]]></comment>
+<createdTime>2021-06-24 21:16:28 UTC</createdTime>
+<comment><![CDATA[Quantidade de venda]]></comment>
 <ownerDesignName>KeyCar01</ownerDesignName>
 <engineerTo>
 <item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
@@ -53,20 +40,35 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </attribute>
-<attribute name="qtd_entrada" id="53FA6D12-40DF-ACD3-2EE6-E8857A0FEAE1">
+<attribute name="vlr_unit_venda" id="7C337C59-F67C-A7F0-DDF0-76712650FBD4">
 <createdBy>asait</createdBy>
-<createdTime>2021-06-23 16:19:31 UTC</createdTime>
-<comment><![CDATA[Quantidade do produto comprado]]></comment>
+<createdTime>2021-06-24 21:17:29 UTC</createdTime>
+<comment><![CDATA[Vaor unitário de venda do produto]]></comment>
 <ownerDesignName>KeyCar01</ownerDesignName>
 <engineerTo>
 <item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>35</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,35,2</ownDataTypeParameters>
+</attribute>
+<attribute name="dta_entrega" id="D75CCF0D-54BB-C02D-4DFF-87C02CFCB613">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-24 21:18:15 UTC</createdTime>
+<comment><![CDATA[Data da entrga da venda]]></comment>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<engineerTo>
+<item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </attribute>
 </attributes>

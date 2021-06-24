@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="91BF9611-3E17-79BE-94F3-46F764306B8A" name="tbl_compras">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
+<generatorID>E9C89CC1-4CF6-1FBD-B57F-31DBD938DA58</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<abbreviation>compras</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fornecedor_id_for" id="3DBFA6D7-ACCA-BB35-BC9C-AFD5606165F0">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
+<generatorID>BBC8A419-9E6A-DF51-F604-68203FC9641E</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9DAE01F9-6FAA-952B-4209-9A55E88C3F61" referredColumn="B6F9304D-9928-B904-168D-66A72A2BDE1E"/>
+</associations>
+</Column>
+<Column name="id_ped" id="8F06ED65-A39C-690A-D24A-E45B6A35A8F9">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificação do pedido de compra]]></commentInRDBMS>
+<generatorID>E5915A79-F1F7-66E8-EB36-0D003EBE664E</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dta_compra" id="AC5F0F45-5479-314C-031F-6468905712B7">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data entrada OC]]></commentInRDBMS>
+<generatorID>8BAB0F06-5EC2-A5C3-03BE-870FA03777EF</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qtd_ped" id="FD738244-F2E3-32C9-9125-0458CDD31287">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Quantidade do Item ]]></commentInRDBMS>
+<generatorID>18D3F480-0084-9252-5464-46C58CEE6934</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vlr_total_ped" id="B9867B70-07C2-9B7C-EB88-A9AEE94B6A12">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valo total da compra]]></commentInRDBMS>
+<generatorID>27065C0F-CA8C-706A-24D8-C7C8FA84F560</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>35</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,35,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cond_entrega" id="A10A216E-2250-D95C-CA91-9AFA0DBCA29E">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Condição de entrega]]></commentInRDBMS>
+<generatorID>212F4646-97E4-1FE5-BA07-43DFB2915FB9</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="26519E1E-2672-771B-4968-BA51AE9F3998" name="tbl_compras_PK">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
+<generatorID>F4188A0C-C522-462A-DAA5-17E9515E3118</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F06ED65-A39C-690A-D24A-E45B6A35A8F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="971912F7-521E-C354-8080-709803007030" name="tbl_compras_fornecedor_FK">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
+<generatorID>1970A27F-BC4F-F6CC-1439-040552B502E0</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DBFA6D7-ACCA-BB35-BC9C-AFD5606165F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

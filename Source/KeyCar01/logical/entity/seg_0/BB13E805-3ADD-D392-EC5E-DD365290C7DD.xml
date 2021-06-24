@@ -58,10 +58,31 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="vlr_unit_rod" id="B338C2F7-ED95-844F-58C0-F38E79907ABE">
+<Attribute name="categoria_prod" id="FEAD4E50-B5E1-2F30-7CAC-E733ED4F9BAA">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 15:33:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Grupo de produtos:
+- Carros Novos
+- Carros Usados
+- Escapamentos
+- Vidros
+- Bancos
+- Lanternas
+]]></commentInRDBMS>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<engineerTo>
+<item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vlr_unit_venda" id="B338C2F7-ED95-844F-58C0-F38E79907ABE">
 <createdBy>asait</createdBy>
 <createdTime>2021-06-23 15:29:42 UTC</createdTime>
-<commentInRDBMS><![CDATA[Valor unitário do produto]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Valor unitário do produto para venda]]></commentInRDBMS>
 <ownerDesignName>KeyCar01</ownerDesignName>
 <engineerTo>
 <item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
@@ -73,17 +94,40 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,35,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="grupo_prod" id="FEAD4E50-B5E1-2F30-7CAC-E733ED4F9BAA">
+<Attribute name="vlr_unit_compra" id="1EC5311D-0ACB-F46F-7CFB-519394F4F37A">
 <createdBy>asait</createdBy>
-<createdTime>2021-06-23 15:33:25 UTC</createdTime>
-<commentInRDBMS><![CDATA[Grupo de produtos:
-- Carros Novos
-- Carros Usados
-- Escapamentos
-- Vidros
-- Bancos
-- Lanternas
-]]></commentInRDBMS>
+<createdTime>2021-06-24 20:20:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor unitário da compra]]></commentInRDBMS>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<engineerTo>
+<item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>35</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,35,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="montadora" id="AA967C94-6CFB-B805-28E6-24554759C033">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-24 20:21:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descrição da montadora]]></commentInRDBMS>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<engineerTo>
+<item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modelo" id="B08ED00A-D927-662E-5860-62AE8861A34D">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-24 20:22:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome da montadora (peças ou veículo)]]></commentInRDBMS>
 <ownerDesignName>KeyCar01</ownerDesignName>
 <engineerTo>
 <item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>

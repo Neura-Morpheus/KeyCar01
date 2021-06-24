@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="r_ped_for" directorySegmentName="seg_0" id="1970A27F-BC4F-F6CC-1439-040552B502E0">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-24 20:06:01 UTC</createdTime>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<engineerTo>
+<item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
+</engineerTo>
+<sourcePk>F2201DC6-538A-D6BA-B243-313420060995</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B3D1D0F4-C4C9-AE1F-1EB5-8D64915BC4A1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E9C89CC1-4CF6-1FBD-B57F-31DBD938DA58</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D62AF797-B53A-FDDB-3D46-8A6729E30288" name="vendedor">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D8731BF2-B005-22D5-217F-CDBA65FBE1E5" name="vendedor">
 <createdBy>asait</createdBy>
-<createdTime>2021-06-23 16:01:30 UTC</createdTime>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
 <generatorID>52856F15-9DF9-B42F-D37A-C4C16551115C</generatorID>
 <ownerDesignName>KeyCar01</ownerDesignName>
 <abbreviation>vendedores</abbreviation>
@@ -9,9 +9,9 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_ven" id="39593310-7983-E5AC-38EE-2367D53310E6">
+<Column name="id_ven" id="C9BFA40B-F731-6040-4AD4-BF2ADBDDEC48">
 <createdBy>asait</createdBy>
-<createdTime>2021-06-23 16:01:30 UTC</createdTime>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
 <commentInRDBMS><![CDATA[Identificação do Vendedor]]></commentInRDBMS>
 <generatorID>489222DF-AE94-5C50-97F7-DE8A76C18A18</generatorID>
 <ownerDesignName>KeyCar01</ownerDesignName>
@@ -21,9 +21,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nome_ven" id="1A9A6CD5-6DD2-AA68-BCAE-C2886B1754E9">
+<Column name="nome_ven" id="662F09C1-BF96-2689-0A6F-5A2EF03CA482">
 <createdBy>asait</createdBy>
-<createdTime>2021-06-23 16:01:30 UTC</createdTime>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
 <commentInRDBMS><![CDATA[Nome do Vendedor]]></commentInRDBMS>
 <generatorID>3B288450-5945-3D40-00AD-B99BAC10A3DB</generatorID>
 <ownerDesignName>KeyCar01</ownerDesignName>
@@ -34,9 +34,9 @@
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="tel_res_ven" id="72FFE562-3638-6748-9257-1066A8E14420">
+<Column name="tel_res_ven" id="72A53B1F-1B33-661A-0373-2937F32B4AE5">
 <createdBy>asait</createdBy>
-<createdTime>2021-06-23 16:01:30 UTC</createdTime>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
 <commentInRDBMS><![CDATA[Telefone Residencial do Vendedor]]></commentInRDBMS>
 <generatorID>FC71F961-839B-0197-A9EC-CD3482A7182D</generatorID>
 <ownerDesignName>KeyCar01</ownerDesignName>
@@ -48,9 +48,9 @@
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="celular_ven" id="DAAB45CE-D5FF-4458-F16B-58DCBA367773">
+<Column name="celular_ven" id="C6111B91-3D29-E152-A1A0-5CD15F5F0488">
 <createdBy>asait</createdBy>
-<createdTime>2021-06-23 16:01:30 UTC</createdTime>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
 <commentInRDBMS><![CDATA[Número celular do vendedor]]></commentInRDBMS>
 <generatorID>B04A0988-4308-7124-088D-0DDBBE747A3C</generatorID>
 <ownerDesignName>KeyCar01</ownerDesignName>
@@ -62,9 +62,9 @@
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="logradouro_ven" id="2A311668-0841-F58A-BCAD-9F5D788EF368">
+<Column name="logradouro_ven" id="7F87C1DB-D96A-0482-2B04-6BE5674B56E5">
 <createdBy>asait</createdBy>
-<createdTime>2021-06-23 16:01:30 UTC</createdTime>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
 <commentInRDBMS><![CDATA[Endereço residencial do vendedor]]></commentInRDBMS>
 <generatorID>85A16BB7-E255-16C8-78F8-EF47F241E257</generatorID>
 <ownerDesignName>KeyCar01</ownerDesignName>
@@ -75,9 +75,9 @@
 <ownDataTypeParameters>250,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="dta_nasc_ven" id="DDA6B258-7DAB-D3F7-AE98-7ED8A5653EBB">
+<Column name="dta_nasc_ven" id="F790B9F9-03AA-F20C-E7D2-799C1B92ABC0">
 <createdBy>asait</createdBy>
-<createdTime>2021-06-23 16:01:30 UTC</createdTime>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
 <commentInRDBMS><![CDATA[Data Nescimento do Vendedor]]></commentInRDBMS>
 <generatorID>B7705053-331A-D875-94A6-E5B47679410A</generatorID>
 <ownerDesignName>KeyCar01</ownerDesignName>
@@ -87,9 +87,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cpf_ven" id="60F614D6-5B5B-A4E8-8CFD-6FA8F102032A">
+<Column name="cpf_ven" id="81FA9464-A2C6-D1E2-AEC3-7B36FFA21659">
 <createdBy>asait</createdBy>
-<createdTime>2021-06-23 16:01:30 UTC</createdTime>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
 <commentInRDBMS><![CDATA[Número do CPF do vendedor]]></commentInRDBMS>
 <generatorID>3C23E342-4363-29A7-EBCB-8CD0EB664B42</generatorID>
 <ownerDesignName>KeyCar01</ownerDesignName>
@@ -99,9 +99,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="dta_adm_ven" id="7DE5A179-AD2A-8D27-9211-D5F8F18E94C7">
+<Column name="dta_adm_ven" id="2B26368A-FC61-672C-6A1A-E2A3F5049BA0">
 <createdBy>asait</createdBy>
-<createdTime>2021-06-23 16:01:30 UTC</createdTime>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
 <commentInRDBMS><![CDATA[Data da admissão do vendedor]]></commentInRDBMS>
 <generatorID>53916C4C-03F3-8E3E-747D-BB09A0F234FD</generatorID>
 <ownerDesignName>KeyCar01</ownerDesignName>
@@ -111,9 +111,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="dta_dem_ven" id="9E66200E-4E8C-3D4E-E242-86ABAB978CF7">
+<Column name="dta_dem_ven" id="3E89E019-9B9F-B139-0235-F9325F556FA7">
 <createdBy>asait</createdBy>
-<createdTime>2021-06-23 16:01:30 UTC</createdTime>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
 <commentInRDBMS><![CDATA[Data da demissão do vendedor]]></commentInRDBMS>
 <generatorID>05EDEA62-4092-211F-723A-BD82B2B94ACB</generatorID>
 <ownerDesignName>KeyCar01</ownerDesignName>
@@ -126,16 +126,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="B09E37E4-52E9-B032-127E-F742DEDA5663" name="vendedor_PK">
+<ind_PK_UK id="E6575403-7453-AEBF-972E-A66EAA50BED2" name="vendedor_PK">
 <createdBy>asait</createdBy>
-<createdTime>2021-06-23 16:01:30 UTC</createdTime>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
 <generatorID>1ECD4CFE-A802-AD38-E226-6811F793B7EE</generatorID>
 <ownerDesignName>KeyCar01</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="39593310-7983-E5AC-38EE-2367D53310E6"/>
+<colUsage columnID="C9BFA40B-F731-6040-4AD4-BF2ADBDDEC48"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="r_compra_prod" directorySegmentName="seg_0" id="87F53B7E-83EA-F4CA-AE92-D3B976F22F39">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-24 20:45:38 UTC</createdTime>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<engineerTo>
+<item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>F4C9D292-31AD-CB4B-66B7-84D552793DE0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E9C89CC1-4CF6-1FBD-B57F-31DBD938DA58</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="id_prod" id="BA23E87D-196E-2100-3974-A9A3C026535B">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-24 20:46:30 UTC</createdTime>
+<comment><![CDATA[Identificação do produto]]></comment>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<engineerTo>
+<item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="qtde_compra" id="7ECB02C1-1CD6-36C3-9739-1D9A3888E210">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-24 20:46:56 UTC</createdTime>
+<comment><![CDATA[Quantidade compra produto]]></comment>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<engineerTo>
+<item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="dta_entrega" id="38E59D24-A2B4-8728-231F-7317C4AE4A1B">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-24 20:53:46 UTC</createdTime>
+<comment><![CDATA[Data efetiva da entrega]]></comment>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<engineerTo>
+<item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="vlr_unit_compra" id="78233635-AF5A-FBD0-D680-5F7852875B4F">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-24 20:54:41 UTC</createdTime>
+<comment><![CDATA[Valor unitário da compra]]></comment>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<engineerTo>
+<item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>35</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,35,2</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

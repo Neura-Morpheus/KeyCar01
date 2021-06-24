@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6500BF29-E3AE-8D9F-BABD-D381FA307AB3" name="produto">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
+<generatorID>BB13E805-3ADD-D392-EC5E-DD365290C7DD</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<abbreviation>produtos</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_prod" id="4CC23C21-9529-5728-36D6-AABD527087BB">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificação do produto]]></commentInRDBMS>
+<generatorID>002DA1D3-2DB2-B2FD-F6CF-FAA5E0424365</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desc_prod" id="D17386FE-C03F-1080-331A-0A7485EE1FE0">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descrição do produto]]></commentInRDBMS>
+<generatorID>0BB26E11-5534-9FBC-963F-BEA75A5548E7</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_prod" id="B4BDFB0F-0B5D-251E-C65A-9BCFD6F368B5">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tipo do Produto (peças ou carros novos ou usados)]]></commentInRDBMS>
+<generatorID>C0C067F5-1003-E476-E883-1BAA9BC700D1</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="categoria_prod" id="42818311-5F00-A492-C80F-098C59746188">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Grupo de produtos:
+- Carros Novos
+- Carros Usados
+- Escapamentos
+- Vidros
+- Bancos
+- Lanternas
+]]></commentInRDBMS>
+<generatorID>FEAD4E50-B5E1-2F30-7CAC-E733ED4F9BAA</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vlr_unit_venda" id="2495B13C-969C-230C-2938-4FDB6EF21B04">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor unitário do produto para venda]]></commentInRDBMS>
+<generatorID>B338C2F7-ED95-844F-58C0-F38E79907ABE</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>35</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,35,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vlr_unit_compra" id="D022F23F-B926-7119-EC0E-DC6E4C412BAE">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor unitário da compra]]></commentInRDBMS>
+<generatorID>1EC5311D-0ACB-F46F-7CFB-519394F4F37A</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>35</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,35,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="montadora" id="9B67D0A5-04BC-669D-DE0A-9F66B98B4778">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descrição da montadora]]></commentInRDBMS>
+<generatorID>AA967C94-6CFB-B805-28E6-24554759C033</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modelo" id="3A652C62-20A8-D6D8-2337-31D2DF995040">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome da montadora (peças ou veículo)]]></commentInRDBMS>
+<generatorID>B08ED00A-D927-662E-5860-62AE8861A34D</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C8B0D339-EE8A-0ACA-A410-BDDB68B85ABE" name="produto_PK">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
+<generatorID>415F585F-0820-B522-1ECB-E26D4E465BC9</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CC23C21-9529-5728-36D6-AABD527087BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

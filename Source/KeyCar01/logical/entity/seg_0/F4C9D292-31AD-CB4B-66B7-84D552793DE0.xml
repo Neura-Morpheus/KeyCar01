@@ -17,7 +17,7 @@
 <preferredAbbreviation>estoque</preferredAbbreviation>
 <shortName>estoque</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_prod" id="D9E64234-9DF7-1F97-90BD-1A69EDA058A9">
+<Attribute name="id_estoque" id="D9E64234-9DF7-1F97-90BD-1A69EDA058A9">
 <createdBy>asait</createdBy>
 <createdTime>2021-06-23 15:37:56 UTC</createdTime>
 <commentInRDBMS><![CDATA[Identificação do Produto]]></commentInRDBMS>
@@ -64,6 +64,20 @@
 <engineerTo>
 <item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
 </engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_prod" id="28BEBA86-F611-7652-1986-4222803A9889">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-24 20:25:49 UTC</createdTime>
+<generatorID>DAB90556-4451-7ABA-AEA4-AB2315C2EC76</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<engineerTo>
+<item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
+</engineerTo>
+<referedAttribute>002DA1D3-2DB2-B2FD-F6CF-FAA5E0424365</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D5927175-2473-B077-2C8F-97A29DA6E8AB" name="pedido">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="653BC6F4-C126-6EF3-1939-6CC8CEB83F5B" name="tbl_vendas">
 <createdBy>asait</createdBy>
-<createdTime>2021-06-23 16:01:30 UTC</createdTime>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
 <generatorID>E406FDB0-51F6-2897-4B05-5FDC1495D853</generatorID>
 <ownerDesignName>KeyCar01</ownerDesignName>
 <abbreviation>pedido</abbreviation>
@@ -9,9 +9,9 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_ped" id="B38EFF41-9077-9013-AC35-C3184E459A53">
+<Column name="id_ped" id="CF410618-38A8-7058-E4B7-913BE369370F">
 <createdBy>asait</createdBy>
-<createdTime>2021-06-23 16:01:30 UTC</createdTime>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
 <commentInRDBMS><![CDATA[Identificação do pedido de venda]]></commentInRDBMS>
 <generatorID>0C52E9E5-55CB-22AD-818C-EF8B589414D2</generatorID>
 <ownerDesignName>KeyCar01</ownerDesignName>
@@ -21,9 +21,22 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="qtd_ped" id="4337411E-2F6B-FAD3-0676-A799C77F3B65">
+<Column name="dta_venda" id="F0ED0113-207B-B00B-2AE3-07051181A6E5">
 <createdBy>asait</createdBy>
-<createdTime>2021-06-23 16:01:30 UTC</createdTime>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data da venda]]></commentInRDBMS>
+<generatorID>E255E275-0BB4-5256-A38D-9A2F89844057</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qtd_ped" id="53E7A01C-4886-AB8F-4B1D-063CD6B819A0">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
 <commentInRDBMS><![CDATA[Quantidade do produto]]></commentInRDBMS>
 <generatorID>2E5594EC-56DE-E66E-1B45-F0F8EA26DF45</generatorID>
 <ownerDesignName>KeyCar01</ownerDesignName>
@@ -33,9 +46,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cliente_id_cli" id="5507D6AD-BDAE-65C1-99DD-11FD14EC5365">
+<Column name="cliente_id_cli" id="1728E0B3-DE6B-1543-1110-EFC2313249FE">
 <createdBy>asait</createdBy>
-<createdTime>2021-06-23 16:01:30 UTC</createdTime>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
 <generatorID>FA705166-6DEA-F189-34D7-0BD803B63220</generatorID>
 <ownerDesignName>KeyCar01</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -45,27 +58,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="1ECC54C7-29B2-2924-2506-FA067A1391F7" referredColumn="DC127494-4971-6CED-9325-7C98871E4A7A"/>
+<colAssociation fkAssociation="5E258764-78DD-094C-9794-F2017F25068F" referredColumn="22135BC5-C6E9-21A6-5AB5-6DE7FD4944E7"/>
 </associations>
 </Column>
-<Column name="dta_venda_ped" id="173B62C2-E735-A738-B26F-144128D29245">
+<Column name="vlr_total_ped" id="57ADDCCB-1151-F2BA-2FC5-0E6F9310D367">
 <createdBy>asait</createdBy>
-<createdTime>2021-06-23 16:01:30 UTC</createdTime>
-<comment><![CDATA[Data da Venda]]></comment>
-<generatorID>744FE56F-5536-37F4-00F2-B6650D0E2B19</generatorID>
-<ownerDesignName>KeyCar01</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<isRelationshipColumn>true</isRelationshipColumn>
-<dependOnForeignKeyID>1ECC54C7-29B2-2924-2506-FA067A1391F7</dependOnForeignKeyID>
-<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
-</Column>
-<Column name="vlr_total_ped" id="0F33E2AE-2305-4EAF-5D59-3E289BAFE74B">
-<createdBy>asait</createdBy>
-<createdTime>2021-06-23 16:31:54 UTC</createdTime>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
 <commentInRDBMS><![CDATA[Valor total do Pedido]]></commentInRDBMS>
 <generatorID>0B2D33B1-301E-60DC-6326-623E8E859FE4</generatorID>
 <ownerDesignName>KeyCar01</ownerDesignName>
@@ -78,9 +76,9 @@
 <ownDataTypeParameters>,35,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="comissão_ven" id="9EAFE6E9-9B98-1588-7D5A-7CE6BF35FAEF">
+<Column name="comissão_ven" id="EA8E48FB-3819-1943-B8D9-9A3EA09B26A7">
 <createdBy>asait</createdBy>
-<createdTime>2021-06-23 16:31:54 UTC</createdTime>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
 <commentInRDBMS><![CDATA[Percentual de comissão do vendedor]]></commentInRDBMS>
 <generatorID>EF2DF630-D981-2DC8-AF7B-C866E2A9175C</generatorID>
 <ownerDesignName>KeyCar01</ownerDesignName>
@@ -91,9 +89,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="vendedor_id_ven" id="33C94AB5-2D3D-BDA1-B765-2181FD06DA4D">
+<Column name="vendedor_id_ven" id="D6564D5B-841E-45EA-F67E-0194BDFE2296">
 <createdBy>asait</createdBy>
-<createdTime>2021-06-23 16:31:54 UTC</createdTime>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
 <generatorID>63D777BC-8FB2-29F4-E0FF-9E86FC670A87</generatorID>
 <ownerDesignName>KeyCar01</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -103,43 +101,58 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="447B935B-D96E-0D8E-5B31-A8ED220B859B" referredColumn="39593310-7983-E5AC-38EE-2367D53310E6"/>
+<colAssociation fkAssociation="8A75F73E-CC22-6C99-2C61-DA892466BAAA" referredColumn="C9BFA40B-F731-6040-4AD4-BF2ADBDDEC48"/>
 </associations>
+</Column>
+<Column name="dta_venda_ped" id="A141DCF7-A372-101C-54C1-BFC30492BE66">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
+<comment><![CDATA[Data da Venda]]></comment>
+<generatorID>744FE56F-5536-37F4-00F2-B6650D0E2B19</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>5E258764-78DD-094C-9794-F2017F25068F</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D93FE2C3-CA1C-1227-9A9C-A8ADDF9A36E2" name="pedido_PK">
+<ind_PK_UK id="37FAE0E6-48F6-B224-0D32-013E0ECBA0AF" name="tbl_vendas_PK">
 <createdBy>asait</createdBy>
-<createdTime>2021-06-23 16:01:30 UTC</createdTime>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
 <generatorID>96785DA4-9A73-93AD-BF65-8D6B4C5A6CEB</generatorID>
 <ownerDesignName>KeyCar01</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B38EFF41-9077-9013-AC35-C3184E459A53"/>
+<colUsage columnID="CF410618-38A8-7058-E4B7-913BE369370F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8C37B42B-4FF6-3222-92F7-89CFF0EEE243" name="pedido_cliente_FK">
+<ind_PK_UK id="794646FD-FCB4-5F04-0BDE-B6491D37307B" name="tbl_vendas_cliente_FK">
 <createdBy>asait</createdBy>
-<createdTime>2021-06-23 16:01:30 UTC</createdTime>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
 <generatorID>44EFC2A4-1E29-61F9-FDEE-584F87B268B7</generatorID>
 <ownerDesignName>KeyCar01</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5507D6AD-BDAE-65C1-99DD-11FD14EC5365"/>
+<colUsage columnID="1728E0B3-DE6B-1543-1110-EFC2313249FE"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2B835A85-584B-12F8-BCF8-5CAB75BBA0F3" name="pedido_vendedor_FK">
+<ind_PK_UK id="7E32F71E-D498-9AE4-BF5D-BFF5544C1929" name="tbl_vendas_vendedor_FK">
 <createdBy>asait</createdBy>
-<createdTime>2021-06-23 16:31:54 UTC</createdTime>
+<createdTime>2021-06-24 21:19:45 UTC</createdTime>
 <generatorID>2381ED4D-A9BD-74B9-D9BD-78DF53A17BEF</generatorID>
 <ownerDesignName>KeyCar01</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="33C94AB5-2D3D-BDA1-B765-2181FD06DA4D"/>
+<colUsage columnID="D6564D5B-841E-45EA-F67E-0194BDFE2296"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
