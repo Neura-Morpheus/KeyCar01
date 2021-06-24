@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="44B3F2EF-6A39-BEC8-8576-2DD555F2026A" name="CLIENTES">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 14:30:18 UTC</createdTime>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<engineerTo>
+<item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>cliente</preferredAbbreviation>
+<shortName>clientes</shortName>
+<synonym>buyers</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cli" id="78457078-C10A-62AA-1968-67FCE0AED042">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 14:45:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[identificação do cliente no sistema]]></commentInRDBMS>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<engineerTo>
+<item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_cli" id="911F06A2-4BDB-4151-55AA-2D01D892FB49">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 14:53:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[Pessoa Física ou Jurídica]]></commentInRDBMS>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<engineerTo>
+<item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_cli" id="D474CD6C-886E-EF52-FB39-260277F35759">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 14:46:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome ou Razão Social do Cliente]]></commentInRDBMS>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<engineerTo>
+<item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco_cli" id="59CECC66-FED5-193A-AEFE-4244B98CB856">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-24 06:42:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Endereço completo do Cliente (Logradouro, Cidade, Estado, Regiao)]]></commentInRDBMS>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<engineerTo>
+<item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tel_coml_cli" id="D2829425-90E6-0F5B-481D-482F01BD96C7">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 14:48:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Telefone Comercial do Cliente]]></commentInRDBMS>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<engineerTo>
+<item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="celular_cli" id="B353609F-CEDB-C2A2-CF90-B619EC222299">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 14:51:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[Número celular do Cliente]]></commentInRDBMS>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<engineerTo>
+<item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email_cli" id="D01BD01A-2AB0-9C0F-379F-3722F1E41ED0">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 14:52:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[Conta de email do Ciente]]></commentInRDBMS>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<engineerTo>
+<item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dta_ult_venda" id="32005EC9-C69C-9507-CC99-F47E9961EEB4">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 15:03:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data da última venda para este cliente]]></commentInRDBMS>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<engineerTo>
+<item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="57D573E3-CEB1-0F56-1FEB-DE79018DB548" name="CLIENTES PK">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 14:46:18 UTC</createdTime>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>78457078-C10A-62AA-1968-67FCE0AED042</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

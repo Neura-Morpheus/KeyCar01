@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB37D8B1-3E48-67BE-4540-8505217E98BF" name="produto">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 16:01:30 UTC</createdTime>
+<generatorID>BB13E805-3ADD-D392-EC5E-DD365290C7DD</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<abbreviation>produtos</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_prod" id="898D39F2-A7EE-DC23-069E-B76C08D65FBE">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 16:01:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificação do produto]]></commentInRDBMS>
+<generatorID>002DA1D3-2DB2-B2FD-F6CF-FAA5E0424365</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desc_prod" id="06E3F265-49FC-2288-D4CC-4EC0DC81DD84">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 16:01:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descrição do produto]]></commentInRDBMS>
+<generatorID>0BB26E11-5534-9FBC-963F-BEA75A5548E7</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_prod" id="137CEC4A-AFA5-53CD-3449-62933511460D">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 16:01:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tipo do Produto (peças ou carros novos ou usados)]]></commentInRDBMS>
+<generatorID>C0C067F5-1003-E476-E883-1BAA9BC700D1</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vlr_unit_rod" id="D8236198-1A5A-53ED-4828-7597E318D7CC">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 16:01:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor unitário do produto]]></commentInRDBMS>
+<generatorID>B338C2F7-ED95-844F-58C0-F38E79907ABE</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>35</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,35,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="grupo_prod" id="D2C726FA-9C38-514E-FC83-D0395E4476DB">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 16:01:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Grupo de produtos:
+- Carros Novos
+- Carros Usados
+- Escapamentos
+- Vidros
+- Bancos
+- Lanternas
+]]></commentInRDBMS>
+<generatorID>FEAD4E50-B5E1-2F30-7CAC-E733ED4F9BAA</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="626F6A72-9B40-C541-C7B7-386BB3A25F99" name="produto_PK">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 16:01:30 UTC</createdTime>
+<generatorID>415F585F-0820-B522-1ECB-E26D4E465BC9</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="898D39F2-A7EE-DC23-069E-B76C08D65FBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

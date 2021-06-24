@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="r_stq_entrada" directorySegmentName="seg_0" id="55F4FFB2-33DF-3867-19EF-917CB09EEBA2">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 16:16:06 UTC</createdTime>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<engineerTo>
+<item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>F4C9D292-31AD-CB4B-66B7-84D552793DE0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B3D1D0F4-C4C9-AE1F-1EB5-8D64915BC4A1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="id_compra" id="82FE17C8-8E4B-071B-16CB-9A534CF09E17">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 16:16:49 UTC</createdTime>
+<comment><![CDATA[Identificação da Compra]]></comment>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<engineerTo>
+<item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="dta_compra" id="A66E57B5-C2F9-58D8-7334-0CDD80EE32A2">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 16:18:45 UTC</createdTime>
+<comment><![CDATA[Data da compra]]></comment>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<engineerTo>
+<item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="dta_entrega" id="BAB135AD-9A33-FFAC-352E-48CEB252AFC2">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-24 06:38:48 UTC</createdTime>
+<comment><![CDATA[Data da entrega efetiva do produto]]></comment>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<engineerTo>
+<item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="qtd_entrada" id="53FA6D12-40DF-ACD3-2EE6-E8857A0FEAE1">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 16:19:31 UTC</createdTime>
+<comment><![CDATA[Quantidade do produto comprado]]></comment>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<engineerTo>
+<item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

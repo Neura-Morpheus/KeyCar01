@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="06F85781-6A8C-D5C7-1C06-C890349EC6D9" name="r_stq_entrada">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 17:08:19 UTC</createdTime>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="estoque_id_prod" id="639B099E-A871-4A62-1A4E-88075D767173">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 17:08:19 UTC</createdTime>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA12ABE1-54FC-7BE5-36CC-6328BEE2A8D0" referredColumn="F1E87EB1-8DEE-6E4A-D349-EED409069085"/>
+</associations>
+</Column>
+<Column name="fornecedor_id_for" id="D9C3B4F8-750D-4B30-B684-12F971E8FC0D">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 17:08:19 UTC</createdTime>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E3D10CF9-768D-E1D5-7D14-46F354246563" referredColumn="296C60BA-B1F9-10AE-923B-921D663C42F5"/>
+</associations>
+</Column>
+<Column name="id_compra" id="33483DC8-70F3-AB92-4A89-FC10EBD16736">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 17:08:19 UTC</createdTime>
+<comment><![CDATA[Identificação da Compra]]></comment>
+<generatorID>82FE17C8-8E4B-071B-16CB-9A534CF09E17</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="dta_compra" id="BC279E93-1890-ACF0-B22C-AD1982B83B09">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 17:08:19 UTC</createdTime>
+<comment><![CDATA[Data da compra]]></comment>
+<generatorID>A66E57B5-C2F9-58D8-7334-0CDD80EE32A2</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="qtd_entrada" id="9A73173D-989E-EA7B-5100-20B896615DEF">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 17:08:19 UTC</createdTime>
+<comment><![CDATA[Quantidade do produto comprado]]></comment>
+<generatorID>53FA6D12-40DF-ACD3-2EE6-E8857A0FEAE1</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="dta_entrega" id="1F0DDA30-D8A3-B6D8-DBD8-7CE1939001CC">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-24 06:44:08 UTC</createdTime>
+<comment><![CDATA[Data da entrega efetiva do produto]]></comment>
+<generatorID>BAB135AD-9A33-FFAC-352E-48CEB252AFC2</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0BE11457-BD3D-605E-2391-42D75ABF35F0" name="r_stq_entrada_PK">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 17:08:19 UTC</createdTime>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="639B099E-A871-4A62-1A4E-88075D767173"/>
+<colUsage columnID="D9C3B4F8-750D-4B30-B684-12F971E8FC0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C83EC724-DCFF-0518-612F-6ABF683EAD70" name="r_stq_entrada_estoque_FK">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 17:08:19 UTC</createdTime>
+<generatorID>55F4FFB2-33DF-3867-19EF-917CB09EEBA2</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="639B099E-A871-4A62-1A4E-88075D767173"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6D66D55-D55A-95A0-0A84-6A0EB9E22B94" name="r_stq_entrada_fornecedor_FK">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 17:08:19 UTC</createdTime>
+<generatorID>55F4FFB2-33DF-3867-19EF-917CB09EEBA2</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9C3B4F8-750D-4B30-B684-12F971E8FC0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

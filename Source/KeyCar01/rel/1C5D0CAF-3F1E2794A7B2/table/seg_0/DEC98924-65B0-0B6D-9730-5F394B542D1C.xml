@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DEC98924-65B0-0B6D-9730-5F394B542D1C" name="estoque">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 16:01:30 UTC</createdTime>
+<generatorID>F4C9D292-31AD-CB4B-66B7-84D552793DE0</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<abbreviation>estoque</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_prod" id="F1E87EB1-8DEE-6E4A-D349-EED409069085">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 16:01:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificação do Produto]]></commentInRDBMS>
+<generatorID>D9E64234-9DF7-1F97-90BD-1A69EDA058A9</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dta_ult_mov_stq" id="9A1FC4E9-170F-8C66-A8C7-493E19B63F67">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 16:01:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data da última movimentação]]></commentInRDBMS>
+<generatorID>69D3F097-3FC3-AF63-1184-6553B0858755</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="saldo_stq" id="05A5D01A-1DF9-BD9D-67F5-45D61712A112">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 16:01:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Saldo do Produto no Estoque]]></commentInRDBMS>
+<generatorID>13DE6740-36DC-63F2-C503-12A4CC6BE4F9</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qtd_min_stq" id="8F473F9D-BF69-349F-E7E5-0CE423D255F3">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 16:01:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Quantidade mínima do estoque]]></commentInRDBMS>
+<generatorID>E81C6A7E-59A5-5EE2-0381-2410D6CFB319</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BDCF5AC6-C556-A0DD-5FF8-19DB2FF8E3CC" name="estoque_PK">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 16:01:30 UTC</createdTime>
+<generatorID>CC8968E8-F819-FA27-F6AC-3B9367290CC1</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1E87EB1-8DEE-6E4A-D349-EED409069085"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

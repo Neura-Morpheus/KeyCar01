@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="r_cli_ped" directorySegmentName="seg_0" id="44EFC2A4-1E29-61F9-FDEE-584F87B268B7">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 15:53:27 UTC</createdTime>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<engineerTo>
+<item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
+</engineerTo>
+<sourcePk>57D573E3-CEB1-0F56-1FEB-DE79018DB548</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>44B3F2EF-6A39-BEC8-8576-2DD555F2026A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E406FDB0-51F6-2897-4B05-5FDC1495D853</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="dta_venda_ped" id="744FE56F-5536-37F4-00F2-B6650D0E2B19">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 15:56:22 UTC</createdTime>
+<comment><![CDATA[Data da Venda]]></comment>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<engineerTo>
+<item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

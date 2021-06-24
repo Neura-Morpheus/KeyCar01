@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E406FDB0-51F6-2897-4B05-5FDC1495D853" name="PEDIDO_VENDA">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 14:35:23 UTC</createdTime>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<engineerTo>
+<item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>pedido</preferredAbbreviation>
+<shortName>pedido</shortName>
+<synonym>Ordem de venda</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_ped" id="0C52E9E5-55CB-22AD-818C-EF8B589414D2">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 15:22:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificação do pedido de venda]]></commentInRDBMS>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<engineerTo>
+<item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qtd_ped" id="2E5594EC-56DE-E66E-1B45-F0F8EA26DF45">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 15:23:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[Quantidade do produto]]></commentInRDBMS>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<engineerTo>
+<item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cli" id="FA705166-6DEA-F189-34D7-0BD803B63220">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 15:53:27 UTC</createdTime>
+<generatorID>44EFC2A4-1E29-61F9-FDEE-584F87B268B7</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<engineerTo>
+<item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
+</engineerTo>
+<referedAttribute>78457078-C10A-62AA-1968-67FCE0AED042</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vlr_total_ped" id="0B2D33B1-301E-60DC-6326-623E8E859FE4">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 16:06:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor total do Pedido]]></commentInRDBMS>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<engineerTo>
+<item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>35</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,35,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comissão_ven" id="EF2DF630-D981-2DC8-AF7B-C866E2A9175C">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 16:08:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[Percentual de comissão do vendedor]]></commentInRDBMS>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<engineerTo>
+<item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_ven" id="63D777BC-8FB2-29F4-E0FF-9E86FC670A87">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 16:10:03 UTC</createdTime>
+<generatorID>2381ED4D-A9BD-74B9-D9BD-78DF53A17BEF</generatorID>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<engineerTo>
+<item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="true"/>
+</engineerTo>
+<referedAttribute>489222DF-AE94-5C50-97F7-DE8A76C18A18</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="96785DA4-9A73-93AD-BF65-8D6B4C5A6CEB" name="PEDIDO_VENDA PK">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-23 15:23:00 UTC</createdTime>
+<ownerDesignName>KeyCar01</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1C5D0CAF-2F22-5017-AAB6-3F1E2794A7B2" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0C52E9E5-55CB-22AD-818C-EF8B589414D2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
